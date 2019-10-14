@@ -2,8 +2,7 @@ require 'pry'
 def square_array(array)
   new_array = []
   array.each  do |number| new_array.push(number*number)
- 
-
-  binding.pry
+new_array
+  
 end
 end
