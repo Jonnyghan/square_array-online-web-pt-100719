@@ -1,8 +1,8 @@
 require 'pry'
 def square_array(array)
-  new_numbers = []
+  new_array = []
   array.each  do |number| number * number
- new_numbers << array
+ new_array << array
 
   binding.pry
 end
